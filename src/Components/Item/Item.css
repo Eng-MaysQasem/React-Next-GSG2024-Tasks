@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  span {
+    margin-left: 10px;
+  }
+  
+  input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  span > svg {
+    cursor: pointer;
+  }
+  
+  span.urgent {
+    color: #cd0e0e;
+    font-weight: bold;
+  }
+  

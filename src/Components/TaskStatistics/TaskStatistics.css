@@ -1,0 +1,29 @@
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .data-container b {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .data-container span {
+    font-size: 1rem;
+    color: #666;
+  }
+  
